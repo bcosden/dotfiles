@@ -12,8 +12,8 @@ keymap.set("n", "dw", 'vb"_d')
 keymap.set("n", "<C-a>", "gg<S-v>G")
 
 -- Disable continuations
-keymap.set("n", "<Leader>o", "o<Esc>^Da", opts)
-keymap.set("n", "<Leader>O", "O<Esc>^Da", opts)
+keymap.set("n", "<C-n>", "o<Esc>^Da", opts)
+keymap.set("n", "<C-s-N>", "O<Esc>^Da", opts)
 
 -- New tab
 keymap.set("n", "te", ":tabedit")
